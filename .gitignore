@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Output artifacts
+output/logs/*
+output/metrics/*
+output/figures/*
+output/reports/*
+
+# Keep folders
+!output/logs/.gitkeep
+!output/metrics/.gitkeep
+!output/figures/.gitkeep
+!output/reports/.gitkeep
+
+# Data artifacts
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
